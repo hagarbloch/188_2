@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sign Up</title>
+  <link rel="stylesheet" type="text/css" href="/style3.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="/signup">Sign-Up</a></li>
+      <li><a href="/login">Log-In</a></li>
+    </ul>
+  </nav>
+
+  <div class="mainHeader">
+    <h1>B i s t F i t</h1>
+  </div>
+
+  <div class="container">
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <p>User Exists or Confirm-Password Dont Mach Password </p>
+      </div>
+    </div>
+    <div id="header">
+      <h2>Sign Up</h2>
+    </div>
+    <div class="form-replace">
+      <div id="row2" class="form-group">
+        <label for="nameUser">Name:</label>
+        <input type="text" id="nameUser" name="nameUser" required>
+      </div>
+
+      <div id="row3" class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div id="row4" class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+
+      <div id="row5" class="form-group">
+        <label for="password2">Confirm Password:</label>
+        <input type="password" id="password2" name="password2" required>
+      </div>
+
+      <div id="signbutton">
+        <button id="button" onclick="checkIsActive()" type="submit"> Sign- Up</button>
+      </div>
+    </div>
+    <div id="row6">
+      <p>Already have an account? <a href="/login">Login</a></p>
+    </div>
+  </div>
+
+  <div class="middle">
+    <img
+      src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmYwNGNiOGJkNzFlMmU1ZDU0NjlhYjgyZmJiMDkwNWU5MzEwODI1NiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PXM/J0ud3hmWcZAjPm4cwG/giphy.gif"
+      width="200" height="200" alt="Animated GIF">
+  </div>
+
+
+
+  </div>
+  <script src="/script2.js"></script>
+</body>
+
+</html>

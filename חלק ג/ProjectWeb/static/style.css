@@ -1,0 +1,289 @@
+  @font-face {
+    font-family: summeryNotes;
+    src: url('/AlfaSlabOne-Regular.ttf');
+  }
+
+  html {
+    background: linear-gradient(-200deg, #99DBF5 10%, rgb(241, 241, 241) 90%);
+    height: 103%;
+    background-size: cover;
+    text-align: center;
+    font-family: summeryNotes;
+    color: #025464;
+  }
+
+  /*grids*/
+
+  /*animation:*/
+  .middle {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+
+  .middle {
+    position: relative;
+    height: 30vh;
+    margin-top: 50px;
+  }
+
+  .container {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas:
+      'row1all row1all'
+      'row2all row2all'
+      'row3left row3right'
+      'row4left row4right'
+      'row5left row5right'
+      'row6all row6all'
+      'row7all row7all'
+      'row8all row8all';
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .row1all {
+    grid-area: row1all;
+    font-size: 300%;
+    margin-bottom: -100px;
+  }
+
+  .row2all {
+    grid-area: row2all;
+    color: #696969;
+    font-size: 200%;
+  }
+
+  .row3left {
+    grid-area: row3left;
+    font-size: 150%;
+  }
+
+  .row3left select {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: summeryNotes;
+  }
+
+  .row4left {
+    grid-area: row4left;
+    font-size: 150%;
+  }
+
+  .row4left input {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: summeryNotes
+  }
+
+  .row5left {
+    grid-area: row5left;
+    font-size: 150%;
+  }
+
+  .row5left select {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: summeryNotes;
+  }
+
+  .row3right {
+    grid-area: row3right;
+    font-size: 150%;
+  }
+
+  .row3right input {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: summeryNotes
+  }
+
+  .row4right {
+    grid-area: row4right;
+    font-size: 150%;
+  }
+
+  .row4right input {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: summeryNotes
+  }
+
+
+
+
+  .row6all {
+    grid-area: row6all;
+    font-size: 200%;
+    margin-top: 70px;
+  }
+
+  .row7all {
+    grid-area: row7all;
+  }
+
+  .row8all button {
+    font-size: 300%;
+    text-align: center;
+    font-family: summeryNotes;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+    border-radius: 25px;
+    border-color: transparent;
+    color: #025464;
+  }
+
+  .row8all button:hover {
+    background-color: rgb(240, 239, 239);
+    color: #ff8800;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 320%;
+  }
+
+
+
+  .row8all {
+    margin-top: 70px;
+    grid-area: row8all;
+  }
+
+  .row3right input,
+  .row4right input {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+
+  .row3right input:focus,
+  .row3right input:hover,
+  .row4right input:focus,
+  .row4right input:hover {
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 68%;
+  }
+
+  .row3left select,
+  .row4left input,
+  #activityLevel,
+  #goal {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    font-family: summeryNotes
+  }
+
+  .row3left select:focus,
+  .row3left select:hover,
+  .row4left input:focus,
+  .row4left input:hover,
+  #activityLevel:focus,
+  #activityLevel:hover {
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 71%;
+  }
+
+  #goal:focus,
+  #goal:hover {
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 110%;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(128, 128, 128, 0.2);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+    padding-bottom: 15px;
+    font-size: 120%;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+  }
+
+  nav ul li a:hover {
+    color: #ff8800;
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: xx-large;
+    z-index: 9999;
+  }
+
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 10000;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }

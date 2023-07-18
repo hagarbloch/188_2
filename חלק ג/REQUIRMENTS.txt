@@ -1,0 +1,44 @@
+REQUIREMENTS
+3.1 modules:express, path, mysql2, body-parser, cookie-parser, csv to jason
+3.2 delete path: dropTable
+3.3 syntax: 
+
+const createResultsTable = (req, res) => {
+    const Q1 = "CREATE TABLE IF NOT EXISTS `nutrition` (bmr FLOAT(10,2), tdee FLOAT(10,2), fat FLOAT(10,2), fatCals FLOAT(10,2), protein FLOAT(10,2), proteinCals FLOAT(10,2), carbs FLOAT(10,2), carbsCals FLOAT(10,2))";
+    sql.query(Q1, (err, mysqlres) => {
+        if (err) {
+            console.log(err);
+            return;
+        }
+        console.log("table created");
+        return;
+    })
+    return;
+}
+
+const createTable = (req, res) => {
+    const Q1 = "CREATE TABLE IF NOT EXISTS `users` (email VARCHAR(255) PRIMARY KEY NOT NULL, name VARCHAR(255) NOT NULL, password VARCHAR(255) NOT NULL,  gender VARCHAR(255),age INT ,activityLevel VARCHAR(255) ,height INT ,weight INT ,goal VARCHAR(255))";
+    sql.query(Q1, (err, mysqlres) => {
+        if (err) {
+            console.log(err);
+            return;
+        }
+        console.log("user table created");
+        return;
+    })
+  
+   
+
+const createGymTable = (req, res) => {
+    const Q8 = "CREATE TABLE IF NOT EXISTS `gyms` ( gymName VARCHAR(255) NOT NULL, address VARCHAR(255) PRIMARY KEY NOT NULL, lat DECIMAL(9,6) NOT NULL, lon DECIMAL(9,6) NOT NULL,rating DECIMAL(2,1) NOT NULL CHECK (rating >= 1 AND rating <= 5), lat_rounded DECIMAL(9,2) NOT NULL , lon_rounded DECIMAL(9,2) NOT NULL)";
+    sql.query(Q8, (err, mysqlres) => {
+        if (err) {
+            console.log(err);
+            return;
+        }
+        console.log("GYMStable created");
+        return;
+    })
+};
+
+               

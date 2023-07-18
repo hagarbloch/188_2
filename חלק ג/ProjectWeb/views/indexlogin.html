@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="/style4.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="/signup">Sign-Up</a></li>
+      <li><a href="/login">Log-In</a></li>
+    </ul>
+  </nav>
+
+  <div class="mainHeader">
+    <h1>B i s t F i t</h1>
+  </div>
+
+  <div class="container">
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span id="closeBtn" class="close-btn">&times; </span>
+        <p>InCorrect Name Or Password </p>
+      </div>
+    </div>
+    <div id="header">
+      <h2>Log - In</h2>
+    </div>
+    <div class="form-replace">
+      <div id="row2" class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div id="row3" class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div id="button">
+        <button id="button" onclick="checkCreds()" type="submit">Login</button>
+      </div>
+    </div>
+    <div id="row5">
+      <p>Don't have an account? <a href="/signup">Sign up</a></p>
+    </div>
+  </div>
+
+  <div class="middle">
+    <img
+      src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmYwNGNiOGJkNzFlMmU1ZDU0NjlhYjgyZmJiMDkwNWU5MzEwODI1NiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PXM/J0ud3hmWcZAjPm4cwG/giphy.gif"
+      width="200" height="200" alt="Animated GIF">
+  </div>
+
+
+  </div>
+  <script src="/script3.js"></script>
+
+</body>
+
+</html>

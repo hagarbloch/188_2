@@ -1,0 +1,133 @@
+gymName,address,lat,lon,rating
+Fitness Zone,1 Ben Yehuda St Tel Aviv,32.077260,34.767661,4.5
+PowerFit Gym,5 Dizengoff St Tel Aviv,32.075448,34.773079,3.8
+Iron Strong Fitness,10 Rothschild Blvd Tel Aviv,32.065907,34.775578,4.2
+Pump Up Gym,15 Ibn Gabirol St Tel Aviv,32.078443,34.776731,4.7
+Fit Life Studio,20 King George St Tel Aviv,32.072070,34.777751,3.9
+Active Body Gym,25 HaCarmel St Tel Aviv,32.070562,34.775913,4.1
+Gym Plus,30 Allenby St Tel Aviv,32.070460,34.772585,4.4
+Shape Up Fitness,35 Shenkin St Tel Aviv,32.068256,34.770812,4.6
+Energize Gym,40 Herzl St Tel Aviv,32.067684,34.770604,3.7
+Flex Fitness Club,45 HaYarkon St Tel Aviv,32.073610,34.763904,4.0
+Sweat Zone,50 Hayarkon St Tel Aviv,32.074551,34.764963,4.3
+Muscle Mania Gym,55 Ben Gurion Blvd Tel Aviv,32.078507,34.764947,4.8
+Fitness Junction,60 HaYarkon St Tel Aviv,32.080401,34.764065,3.5
+Body Strong Gym,65 King David St Tel Aviv,32.081939,34.764677,3.8
+Active Fitness Center,70 Yigal Alon St Tel Aviv,32.074394,34.792073,4.2
+Fit World Gym,75 Ibn Gvirol St Tel Aviv,32.078238,34.781293,4.6
+Iron Body Fitness,80 Menachem Begin Rd Tel Aviv,32.082544,34.789434,3.9
+Total Tone Gym,85 Namir Rd Tel Aviv,32.085145,34.789674,4.1
+Prime Fitness Club,90 HaYarkon St Tel Aviv,32.085515,34.770508,4.4
+Workout Zone,95 Ben Yehuda St Tel Aviv,32.079554,34.768162,4.7
+Active Motion Gym,100 Rothschild Blvd Tel Aviv,32.062970,34.772195,4.0
+Elevate Fitness Studio,105 Allenby St Tel Aviv,32.062137,34.771442,4.3
+Fit Zone,110 Shenkin St Tel Aviv,32.061008,34.770503,4.8
+Flex Plus Gym,115 HaCarmel St Tel Aviv,32.059709,34.768717,3.5
+IronFit Studio,120 King George St Tel Aviv,32.059245,34.767984,3.8
+Gym Pro,125 Dizengoff St Tel Aviv,32.057951,34.773354,4.2
+ActiveX Fitness,130 Ibn Gabirol St Tel Aviv,32.057462,34.774656,4.6
+Body Sculpt Gym,135 Ben Yehuda St Tel Aviv,32.056056,34.767478,3.9
+Fit Fusion Studio,140 Rothschild Blvd Tel Aviv,32.064487,34.772810,4.1
+Shape Up Plus Gym,145 Allenby St Tel Aviv,32.062157,34.768458,4.4
+Energize Fitness Club,150 Shenkin St Tel Aviv,32.060982,34.767043,4.7
+Flex Body Gym,155 HaCarmel St Tel Aviv,32.059433,34.768401,4.0
+Workout Pro Studio,160 King George St Tel Aviv,32.056524,34.765647,4.3
+Fit Active Gym,165 Dizengoff St Tel Aviv,32.056202,34.774234,4.8
+Iron Core Fitness,170 Ibn Gabirol St Tel Aviv,32.054958,34.774832,3.5
+Pump Up Plus Gym,175 Ben Yehuda St Tel Aviv,32.053376,34.772025,3.8
+Active Lifestyle Studio,180 Rothschild Blvd Tel Aviv,32.062125,34.775317,4.2
+Total Fit Gym,185 Allenby St Tel Aviv,32.057463,34.766879,4.6
+Muscle Pro Fitness,190 Shenkin St Tel Aviv,32.058263,34.767079,3.9
+Body Strong Plus Gym,195 HaCarmel St Tel Aviv,32.056685,34.765741,4.1
+Fit Zone Studio,200 King George St Tel Aviv,32.059189,34.764771,4.4
+Flex Plus Fitness Club,205 Dizengoff St Tel Aviv,32.056692,34.774438,4.7
+Energize Fit Gym,210 Ibn Gabirol St Tel Aviv,32.056295,34.774744,4.0
+IronFit Plus Studio,215 Ben Yehuda St Tel Aviv,32.055215,34.772351,4.3
+Shape Up Pro Gym,220 Rothschild Blvd Tel Aviv,32.060417,34.775006,4.8
+ActiveX Plus Fitness,225 Allenby St Tel Aviv,32.056688,34.770676,3.5
+Fit Fusion Gym,230 Shenkin St Tel Aviv,32.054432,34.769107,3.8
+Flex Body Plus Studio,235 HaCarmel St Tel Aviv,32.053138,34.767856,4.2
+Workout Pro Fitness Club,240 King George St Tel Aviv,32.052670,34.766330,4.6
+Fit Active Plus Gym,245 Dizengoff St Tel Aviv,32.052383,34.774819,3.9
+Active Gym,12 Ben Gurion St Haifa,32.819576,34.999191,4.3
+FitZone Studio,23 Herzl St Haifa,32.818245,35.000379,4.5
+Iron Fitness,34 Hatzionut St Haifa,32.819248,34.999892,4.2
+PowerFit Gym,42 HaNassi St Haifa,32.819470,34.997947,4.0
+Active Life,17 HaRishonim St Haifa,32.819601,34.998565,4.6
+Flex Body,8 HaGiborim St Haifa,32.819576,34.999904,3.8
+Pump Up Fitness,16 HaAliyah St Haifa,32.819396,34.998129,4.4
+Shape Up Gym,26 HaShomer St Haifa,32.819405,34.999308,4.1
+Total Fit Studio,38 HaShiryon St Haifa,32.819027,34.999004,4.7
+Energize Fitness Club,48 HaTichon St Haifa,32.818451,34.999723,4.3
+IronFit Plus,11 HaHaganah St Haifa,32.818949,35.001218,3.9
+Fit Fusion,22 HaMaccabi St Haifa,32.818805,34.999390,4.8
+Gym Pro,32 HaShomrim St Haifa,32.818258,35.000254,3.7
+ActiveX Fitness,45 HaBanim St Haifa,32.817861,35.001179,4.5
+Body Sculpt,14 HaShomer St Haifa,32.818660,34.999684,4.1
+Flex Plus,29 HaMaccabi St Haifa,32.818467,34.999191,4.7
+Workout Pro,47 HaGanayim St Haifa,32.817823,35.001000,4.3
+Fit Active,19 HaAliyah St Haifa,32.818872,34.998575,4.8
+Iron Core Fitness,35 HaShomer St Haifa,32.818646,34.999727,4.4
+Pump Up Plus,9 HaShomer St Haifa,32.818800,34.999275,4.0
+Active Lifestyle Studio,24 HaAliyah St Haifa,32.818827,34.998190,4.8
+Fit Fusion Studio,40 HaShalom St Haifa,32.818522,34.999676,4.3
+Flex Plus Studio,46 HaMaccabi St Haifa,32.818484,34.999161,4.4
+Energize Studio,15 HaShomer St Haifa,32.818976,34.999815,4.0
+Shape Up Studio,28 HaAliyah St Haifa,32.818668,34.998610,4.6
+IronFit Fitness Club,43 HaHaganah St Haifa,32.817938,35.000915,4.3
+Fit World Fitness Club,18 HaShalom St Haifa,32.818448,34.999246,4.1
+Active Zone Fitness Club,33 HaAliyah St Haifa,32.818960,34.998379,4.7
+Fit Life Fitness Club,49 HaGanayim St Haifa,32.817849,35.001127,4.0
+Flex Zone Fitness Club,21 HaShomer St Haifa,32.818877,34.999576,4.6
+Fitness Zone,12 HaAtzmaut St Beer Sheva,31.246988,34.798441,4.3
+Iron Strong Fitness,23 HaShalom St Beer Sheva,31.246722,34.798134,4.2
+Active Motion Gym,34 HaGiborim St Beer Sheva,31.247524,34.798306,4.0
+Elevate Fitness Studio,42 HaNesi'im St Beer Sheva,31.247654,34.798559,4.3
+Fit Zone,17 HaMelech David St Beer Sheva,31.247369,34.799021,4.8
+Flex Plus Gym,8 HaBen Gurion St Beer Sheva,31.246487,34.798759,3.5
+IronFit Studio,16 HaYam HaTichon St Beer Sheva,31.246299,34.798302,3.8
+Gym Pro,26 HaBanim St Beer Sheva,31.246938,34.798878,4.2
+ActiveX Fitness,38 HaAliyah St Beer Sheva,31.247248,34.799400,4.6
+Body Sculpt Gym,48 HaMelech Yerucham St Beer Sheva,31.247621,34.799430,4.1
+Fit Fusion Studio,11 HaNevi'im St Beer Sheva,31.246840,34.799526,4.4
+Shape Up Plus Gym,22 HaRav Herzog St Beer Sheva,31.246752,34.799926,4.7
+Pump Up Gym,32 HaYarden St Beer Sheva,31.247189,34.800276,4.0
+Energize Fitness Club,45 HaZahav St Beer Sheva,31.247547,34.800124,4.7
+Flex Body Gym,14 HaCarmel St Beer Sheva,31.246499,34.800411,4.0
+Workout Pro Studio,25 HaTavor St Beer Sheva,31.246367,34.800081,4.3
+Fit Active Gym,36 HaShayetet St Beer Sheva,31.247013,34.800781,4.8
+Iron Core Fitness,49 HaMelech David St Beer Sheva,31.247512,34.800507,3.5
+Pump Up Plus Gym,19 HaShikma St Beer Sheva,31.246876,34.801155,3.8
+Active Lifestyle Studio,29 HaYarden St Beer Sheva,31.246904,34.801647,4.2
+Total Fit Gym,40 HaDekel St Beer Sheva,31.247247,34.801335,4.6
+Muscle Pro Fitness,13 HaGefen St Beer Sheva,31.246497,34.801892,3.9
+Body Strong Plus Gym,24 HaShalom St Beer Sheva,31.246457,34.801754,4.1
+Fit Life Studio,35 HaTavor St Beer Sheva,31.246456,34.801441,3.9
+Fit Zone Studio,46 HaMelech David St Beer Sheva,31.247501,34.801313,4.4
+Flex Plus Fitness Club,15 HaNesi'im St Beer Sheva,31.247173,34.801527,4.7
+Energize Fit Gym,26 HaShikma St Beer Sheva,31.247055,34.802067,4.0
+IronFit Plus Studio,37 HaYarden St Beer Sheva,31.247063,34.802409,4.3
+Shape Up Pro Gym,48 HaDekel St Beer Sheva,31.247357,34.802172,4.8
+ActiveX Plus Fitness,19 HaAliyah St Beer Sheva,31.246879,34.802675,3.5
+Fit Fusion Gym,30 HaShikma St Beer Sheva,31.246721,34.802745,3.8
+Flex Body Plus Studio,41 HaYarden St Beer Sheva,31.246626,34.803053,4.2
+Workout Pro Fitness Club,52 HaMelech David St Beer Sheva,31.247404,34.802694,4.6
+Fit Active Plus Gym,21 HaNesi'im St Beer Sheva,31.247013,34.803257,3.9
+Active Body Gym,32 HaCarmel St Beer Sheva,31.246278,34.803264,4.1
+Gym Plus,43 HaDekel St Beer Sheva,31.247431,34.803200,4.4
+Shape Up Fitness,15 HaShalom St Beer Sheva,31.246441,34.803554,4.6
+Energize Gym,26 HaNesi'im St Beer Sheva,31.246940,34.803906,3.7
+Flex Fitness Club,37 HaCarmel St Beer Sheva,31.246167,34.803943,4.0
+PowerFit Gym,48 HaDekel St Beer Sheva,31.246605,34.804070,3.8
+Sweat Zone,19 HaShikma St Beer Sheva,31.246856,34.804328,4.3
+Muscle Mania Gym,30 HaYarden St Beer Sheva,31.246760,34.804622,4.8
+Fitness Junction,41 HaMelech David St Beer Sheva,31.247405,34.804471,3.5
+Body Strong Gym,22 HaNesi'im St Beer Sheva,31.247105,34.804622,3.8
+Active Fitness Center,33 HaCarmel St Beer Sheva,31.246234,34.804792,4.2
+Fit World Gym,44 HaDekel St Beer Sheva,31.246501,34.805064,4.6
+Iron Body Fitness,17 HaShikma St Beer Sheva,31.246668,34.805120,3.9
+Total Tone Gym,28 HaYarden St Beer Sheva,31.246753,34.805333,4.1
+Prime Fitness Club,39 HaMelech David St Beer Sheva,31.247248,34.805380,4.4
+Workout Zone,20 HaNesi'im St Beer Sheva,31.247225,34.805757,4.7
+
+
